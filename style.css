@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.father {
+    width: 800px;
+    height: 500px;
+    border: 1px solid skyblue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.block {
+    width: 250px;
+    height: 300px;
+    border: 1px solid silver;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+   border: 1px solid #06d6ee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: -40px;
+    background: #faf8f8;
+
+}
+.block p {
+   margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.block >h3 {
+    padding-top: 30px;
+}
+.button {
+    height: 50px;
+    width: 150px;
+    background: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.button:hover {
+    background: red;
+    cursor: pointer;
+}
